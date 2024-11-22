@@ -125,7 +125,7 @@ GEM
     docile (1.4.1)
     dotenv (3.1.2)
     drb (2.2.1)
-    dry-cli (1.1.0)
+    dry-cli (1.2.0)
     erubi (1.13.0)
     ffi (1.17.0-aarch64-linux-musl)
     ffi (1.17.0-arm64-darwin)
@@ -198,6 +198,7 @@ GEM
     mini_mime (1.1.5)
     minitest (5.25.1)
     msgpack (1.7.2)
+    mutex_m (0.3.0)
     nenv (0.3.0)
     net-imap (0.4.15)
       date
@@ -232,7 +233,7 @@ GEM
     puma (6.4.2)
       nio4r (~> 2.0)
     racc (1.8.1)
-    rack (3.1.7)
+    rack (3.1.8)
     rack-attack (6.7.0)
       rack (>= 1.0, < 4)
     rack-brotli (2.0.0)
@@ -404,8 +405,10 @@ GEM
     vite_rails (3.0.17)
       railties (>= 5.1, < 8)
       vite_ruby (~> 3.0, >= 3.2.2)
-    vite_ruby (3.8.0)
+    vite_ruby (3.9.1)
       dry-cli (>= 0.7, < 2)
+      logger (~> 1.6)
+      mutex_m
       rack-proxy (~> 0.6, >= 0.6.1)
       zeitwerk (~> 2.2)
     web-console (4.2.1)
@@ -424,7 +427,7 @@ GEM
     xpath (3.2.0)
       nokogiri (~> 1.8)
     yard (0.9.36)
-    zeitwerk (2.6.17)
+    zeitwerk (2.7.1)
 
 PLATFORMS
   aarch64-linux-musl
